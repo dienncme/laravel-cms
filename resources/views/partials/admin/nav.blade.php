@@ -21,7 +21,6 @@
                 <!--  Do not remove line NAVIGATION_FLAG if you want to use CMS generator properly -->
                 <!-- Check the file app/Console/Commands/Cms/Resource.php -->
 				<!--NAVIGATION_FLAG-->
-                @include('partials.admin.nav.single', ['link' => route('elfinder.index'), 'text' => __('admin.elfinder.index'), 'icon' => 'film'])
                 @include('partials.admin.nav.logout', ['class' => 'is-hidden-tablet'])
              </div>
         </div>

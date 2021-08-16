@@ -130,27 +130,3 @@ You will see an output like below. The CMS generator will do **ALL** the boring 
 it will create a migration file with a title, description, content, and slug columns by default, 
 also the respecting Controller and Model files, it will also add the resource to routes, RouteServiceProvider,
 even it will add the basic language key value pairs to the language file.
-
-Just check and edit the files below to proceed.
-
-```
-Created file: database/migrations/2018_10_19_000000_create_fruits_table.php
-Created file: app/Models/Fruit.php
-Created file: app/Http/Controllers/Admin/DataTables/FruitDataTable.php
-Created file: app/Http/Controllers/Admin/FruitController.php
-Created file: resources/views/admin/forms/fruit.blade.php
-Added route to: routes/admin.php
-Added resource language key to: resources/lang/en/resources.php
-Added model binding to: app/Providers/RouteServiceProvider.php
-```
-
------
-<a name="item5"></a>
-## Screenshots
-
-![Index](https://ozdemirburak.com/i/upload/cms/index.png)
-![Admin Auth](https://ozdemirburak.com/i/upload/cms/login.png)
-![Admin Dashboard](https://ozdemirburak.com/i/upload/cms/dashboard.png)
-![Admin Datatables](https://ozdemirburak.com/i/upload/cms/datatables.png)
-![Admin Dashboard](https://ozdemirburak.com/i/upload/cms/editor.png)
-![Admin File Manager](https://ozdemirburak.com/i/upload/cms/file-manager.png)
